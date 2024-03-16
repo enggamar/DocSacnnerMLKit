@@ -16,14 +16,16 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/design_dark_default_color_primary">
+            android:background="@color/design_default_color_secondary">
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="Document Scanner"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
         </com.google.android.material.appbar.MaterialToolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -39,6 +41,8 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/tv_mode_full"
             android:layout_width="wrap_content"
+            android:background="@color/m3_ref_palette_primary80"
+            android:padding="10dp"
             android:layout_height="wrap_content"
             android:text="FULL MODE SCANNER" />
 
@@ -47,6 +51,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:background="@color/m3_ref_palette_primary80"
+            android:padding="10dp"
             android:text="SCANNER MODE BASE WITH FILTER" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -54,6 +60,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:background="@color/m3_ref_palette_primary80"
+            android:padding="10dp"
             android:text="SCANNER MODE BASE" />
 
 
